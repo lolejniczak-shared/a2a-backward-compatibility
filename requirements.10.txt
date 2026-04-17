@@ -1,0 +1,6 @@
+git+https://github.com/a2aproject/a2a-python.git@1.0-dev
+uvicorn
+typing_extensions
+sse-starlette
+fastapi
+jsonschema
