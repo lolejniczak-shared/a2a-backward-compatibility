@@ -53,13 +53,13 @@ request_handler = DefaultRequestHandler(
 rest_routes = create_rest_routes(
     request_handler=request_handler,
     path_prefix='/a2a/rest',
-    enable_v0_3_compat=False,
+    enable_v0_3_compat=True,
 )
 
 jsonrpc_routes = create_jsonrpc_routes(
     request_handler=request_handler,
     rpc_url='/a2a/jsonrpc',
-    enable_v0_3_compat=False,
+    enable_v0_3_compat=True,
 )
 print(jsonrpc_routes)
 

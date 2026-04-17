@@ -59,7 +59,8 @@ async def main():
         
         if final_response:
             print("--- Final Response ---")
-            print(final_response.model_dump(mode='json', exclude_none=True))
+            print(final_response.model_dump(mode='json', 
+            exclude_none=True))
 
 if __name__ == '__main__':
     asyncio.run(main())
